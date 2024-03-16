@@ -107,11 +107,11 @@
     .seccion-formulario {
       display: flex;
       flex-direction: column;
-      width: 95%; }
+      width: 98%; }
       .seccion-formulario .img-contacto {
-        width: 95%; }
+        width: 98%; }
       .seccion-formulario .form {
-        width: 95%;
+        width: 98%;
         display: flex;
         flex-direction: column; } }
 
