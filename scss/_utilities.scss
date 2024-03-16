@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    background-color: #9bbc7b;
+    color: #1d201b;
+    grid-area: boton;
+}

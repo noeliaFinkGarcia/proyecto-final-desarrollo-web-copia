@@ -1,0 +1,25 @@
+.responsive {
+
+    @media(max-width:600px) {
+        ul {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
+
+
+.parrafo-responsive{
+    @media(max-width:600px) {
+        width: 100%;
+        margin-right: 10px;
+        padding: 10px;
+        overflow: auto;
+    }
+}
+
+@mixin imagenes {
+    width: 100%;
+    padding: 20px;
+}

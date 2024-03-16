@@ -1,0 +1,26 @@
+.imagen-inicio {
+    width: 100%;
+    height: 400px;
+    @media(max-width:600px) {
+            height: 400px;
+            @include imagenes;
+    }
+}
+
+.imagen-nosotros {
+    height: 385px;
+    margin-right: 20px;
+    grid-area: imagen-nosotros;
+    @media(max-width:600px) {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 0px;
+    }
+    @include imagenes;
+    
+}
+.img {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+}

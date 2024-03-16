@@ -1,0 +1,19 @@
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "h1-pagina h1-pagina h1-pagina"
+        "h2 h2 h2"
+        "div div div"
+        "div div div"
+        "boton boton boton";
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        @media(max-width:600px) {
+                display: flex;
+                flex-direction: column;
+        }
+}

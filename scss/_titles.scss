@@ -1,0 +1,30 @@
+.h1 {
+    text-align: left;
+    color: $color-logo;
+    font-size: 50px;
+    height: 100px;
+    font-family: "Monserrat";
+    text-decoration: none;
+}
+
+.h1-pagina{
+    text-align: center;
+    color: $color-titulos;
+    font-size: 25px;
+    height: 100px;
+    font-family: "Monserrat";
+    text-decoration: none;
+    background-color: #cde6b5;
+    padding-top: 30px;
+    grid-area: h1-pagina;
+}
+
+.h2 {
+    text-align: center;
+    color: $color-titulos;
+    font-family: "Libre Baskerville", italic;
+    background-color: #9bbc7b;
+    margin: 20px 0;
+    padding-left: 40px;
+    grid-area: h2;
+}
